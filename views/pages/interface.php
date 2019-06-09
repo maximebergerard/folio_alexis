@@ -5,23 +5,9 @@
 </div>
 <div class="container">
     <div class="slides">
-        <div class="slide"><img src="<?= URL ?>/assets/images/interface1.png" alt="illu1"><div class="shadow_interface"></div></div>
-        <div class="slide"><img src="<?= URL ?>/assets/images/interface2.png" alt="illu2"><div class="shadow_interface"></div></div>
-        <div class="slide"><img src="<?= URL ?>/assets/images/interface3.png" alt="illu3"><div class="shadow_interface"></div></div>
-    </div>
-</div>
-<div class="more">
-    <div class="colors">
-        <div class="color1"></div>
-        <div class="color2"></div>
-        <div class="color3"></div>
-    </div>
-    <div class="tools">
-        <div class="tool">
-            <h1>Logiciel</h1>
-            <img src="<?= URL ?>/assets/images/sketch.png" alt="icon illustrator">
-            <h2>Sketch</h2>
-        </div>
+        <div class="slide"><a href="<?= URL ?>interfaces/interface1"><img src="<?= URL ?>/assets/images/interface3.png" alt="illu3"><div class="shadow_interface"></div></a></div>
+        <div class="slide"><a href="<?= URL ?>interfaces/interface2"><img src="<?= URL ?>/assets/images/interface1.png" alt="illu1"><div class="shadow_interface"></div></a></div>
+        <div class="slide"><a href="<?= URL ?>interfaces/interface3"><img src="<?= URL ?>/assets/images/interface2.png" alt="illu2"><div class="shadow_interface"></div></a></div>
     </div>
 </div>
 
