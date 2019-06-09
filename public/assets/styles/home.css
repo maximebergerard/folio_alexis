@@ -1,0 +1,179 @@
+
+
+/***
+
+        HEADER
+
+                    ***/
+
+nav
+{
+    position: fixed;
+    z-index: 20;
+    left: 60px;
+    top: 60px;
+}
+
+/***
+
+        FOOTER
+
+                    ***/
+
+footer a
+{
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+}
+
+/***
+
+        HOME PAGE
+
+                    ***/
+
+body
+{
+    width: 100vw;
+    height: auto;
+    background-color: #272727;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.presentation
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description
+{
+    width: 800px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8em;
+    font-weight: 600;
+    line-height: 140%;
+    text-shadow: 36px 40px 2px #606060;
+
+}
+
+.description h1, .description h2
+{
+    display: inline;
+    color: #F39523;
+}
+
+.description h1::after
+{
+    content: ",";
+    color: white;
+}
+
+.description h1
+{
+    margin: 0 16px; 
+}
+
+.description span
+{
+    color: white;
+}
+
+/***
+
+        ILLUSTRATION HOME
+
+                            ***/
+
+.illustrations, .ui
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.illustrations .title, .ui .title
+{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column;
+}
+
+.illustrations .title span, .ui .title span
+{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: white;
+}
+
+.illustrations .title h3, .ui .title h3
+{
+    display: inline;
+    color: #F39523;
+}
+
+.illustrations .title span, .illustrations .title h3, .ui .title span, .ui .title h3
+{
+    text-shadow: 36px 40px 2px #606060;
+    margin-top: 160px;
+}
+
+.illustrations .title a, .ui .title a
+{
+    padding: 16px 70px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: white;
+    background-color: #F39523;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all ease-out 0.5s;
+}
+
+.illustrations .title a:hover, .ui .title a:hover
+{
+    background-color: white;
+    color: #F39523;
+}
+
+.illustrations .bg_illu, .ui .bg_ui
+{
+    width: 30vw;
+    height: 100vh;
+    background-color: #9DC9C8;
+}
+
+.ui .bg_ui
+{
+    background-color: #D5BF00;
+}
+
+.illustrations .img_illu, .ui .img_ui
+{
+    width: 450px;
+    right: 20vw;
+    transform-origin: center;
+    transform: translateY(50%);
+    position: absolute;
+}
+.illustrations .img_illu img, .ui .img_ui img
+{
+    width: 100%;
+}

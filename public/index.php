@@ -20,6 +20,9 @@ if ($q == 'home')
 {
     $controller = 'home';
 }
+elseif ($q == 'illustrations') {
+    $controller = 'illustrations';
+}
 
 // Include controller
 include '../controllers/'.$controller.'.php';
