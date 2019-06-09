@@ -1,0 +1,95 @@
+/***
+
+        ILLUSTRATIONS SLIDER
+
+                                    ***/
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.container .slides
+{
+    width: 150vw;
+    height: 715px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10vw;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.container .slides .slide
+{
+    flex: 0 0 auto;
+    padding: 0 70px;
+    position: relative;
+}
+
+.container .slides .slide .shadow
+{
+    position: absolute;
+    bottom: 0;
+    width: 391px;
+    height: 715px;
+    opacity: 1;
+    background: linear-gradient(to top, rgba(0,0,0,0.86) 0%, rgba(0,0,0,0.86) 6%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0) 100%);
+    transition: opacity ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.container .slides .slide .shadow:hover
+{
+    opacity: 0;
+}
+
+.container .slides .slide:last-child
+{
+    padding-right: 300px;
+}
+
+/***
+
+        ILLUSTRATIONS MORE
+        
+                                    ***/
+
+.more
+{
+    width: 100vw;
+    height: 0vh;
+    margin-top: -10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.colors
+{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.color1, .color2, .color3
+{
+    width: 240px;
+    height: 320px;
+    background-color: blue;
+}
+
+.tools
+{
+    width: 100vw;
+    height: 50vh;
+}
