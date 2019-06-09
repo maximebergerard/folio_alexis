@@ -9,6 +9,16 @@
     display: none; 
 }
 
+.title_works
+{
+    position: absolute;
+    font-size: 2.2em;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 160px;
+    color: #F39523;
+}
+
 .container
 {
     width: 100vw;
@@ -24,6 +34,7 @@
     display: flex;
     flex-wrap: nowrap;
     margin-left: 10vw;
+    margin-top: 100px;
     overflow-y: hidden;
     overflow-x: scroll;
 }
@@ -35,7 +46,7 @@
     position: relative;
 }
 
-.container .slides .slide .shadow
+.container .slides .slide .shadow_illustration, .container .slides .slide .shadow_interface
 {
     position: absolute;
     bottom: 0;
@@ -47,7 +58,7 @@
     cursor: pointer;
 }
 
-.container .slides .slide .shadow:hover
+.container .slides .slide .shadow_illustration:hover, .container .slides .slide .shadow_interface:hover
 {
     opacity: 0;
 }
@@ -67,7 +78,6 @@
 {
     width: 100vw;
     height: 0vh;
-    margin-top: -10px;
     background-color: #fff;
     overflow: hidden;
 }
@@ -88,8 +98,33 @@
     background-color: blue;
 }
 
+.color2
+{
+    margin-top: 60px;
+}
+
 .tools
 {
     width: 100vw;
     height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tool
+{
+    width: 70vw;
+}
+
+.tools .tool h1
+{
+    font-size: 2.6em;
+    font-weight: 600;
+    margin-bottom: 30px; 
+}
+
+.tools .tool h2
+{
+    margin-top: 20px;
+    font-size: 1.4em;
 }

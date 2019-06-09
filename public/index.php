@@ -23,6 +23,9 @@ if ($q == 'home')
 elseif ($q == 'illustrations') {
     $controller = 'illustrations';
 }
+elseif ($q == 'interface') {
+    $controller = 'interface';
+}
 
 // Include controller
 include '../controllers/'.$controller.'.php';

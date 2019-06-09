@@ -13,7 +13,7 @@
         <div class="illustrations">
             <div class="title">
                 <span>Here are some <h3>Illustrations</h3></span>
-                <a href="#">Discover</a>
+                <a href="<?= URL ?>illustrations">Discover</a>
             </div>
             <div class="bg_illu"></div>
             <div class="img_illu">
@@ -25,7 +25,7 @@
         <div class="ui">
             <div class="title">
                 <span>Here are some <h3>UI/UX Design</h3></span>
-                <a href="#">Discover</a>
+                <a href="<?= URL ?>interface">Discover</a>
             </div>
             <div class="bg_ui"></div>
             <div class="img_ui">

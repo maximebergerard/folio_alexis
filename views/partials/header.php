@@ -10,4 +10,4 @@
     <link rel="stylesheet" href="<?= URL ?>assets/styles/home.css">
 </head>
 <body>
-    <nav><a href=""><img src="<?= URL ?>/assets/images/logo.png" alt=""></a></nav>
+    <nav><a href="<?= URL ?>"><img src="<?= URL ?>/assets/images/logo.png" alt="Logo"></a></nav>
